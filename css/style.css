@@ -1,0 +1,90 @@
+*{	margin:0;
+	padding:0;
+	color: white;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+/* header CSS */
+.container{	width:1000px;
+			height: auto;
+			display:block;
+}
+header{	background-color:#3333ff;
+		width:100%;
+		padding-top:25px;
+		padding-bottom:25px;
+	
+}
+header h3 {	color: white;
+			padding-left: 30px;
+			font-size: 22px;
+	
+}
+/* form CSS */
+main {}
+.nased{ padding-top:150px;
+		padding-left:100px;	
+		display:inline-block;
+		font-size:40px;
+		color: 	#8B0000;
+}
+.zia{text-decoration: overline;
+	 color: 		#8B0000;
+	 }
+.zia1{text-decoration: underline;
+		color: 		#8B0000;
+}
+.form-box{	background-image:url(../images/815405699_61d745ac23_b[1].jpg);
+			width:100%;
+			height:100vh;
+			Padding-bottom: 10px;
+			padding-left: 150px;
+			background-size: cover;
+			display:inline-block;
+			font-size: 22px;
+}
+.form-box form{float:right;
+				background-color: #008080;
+				height:650px;
+				margin-left:100px;
+				padding:20px;
+}
+.form-box form p{}
+.form-box form lebel{ 	width:340px;
+						
+					
+}
+.form-box form input {	width: 340px;
+						height:34px;
+						background:#00FA9A;
+}
+.form-box form select {	width: 100%;
+						height:34px;
+						background-color:#fff;
+						color:black} 
+.form-box form select option { 	background-color:#FA8072;
+								color:black
+	
+}
+.form-box form button {	color: white;
+						background-color:coral;
+						width:340px;
+						height:50px;
+						font-size: 22px;
+						border:none;
+						border-radius: 4px;
+}
+.form-box form button:hover {background:#2ecc71;
+	
+}
+.info zia2{		color:navy;
+				margin: auto;
+				padding: 10px;
+				font-size: 22px;
+		}
+
+
+
+
