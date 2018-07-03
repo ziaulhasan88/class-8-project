@@ -1,0 +1,85 @@
+
+.container{	width:1000px;
+			height: auto;
+}
+nav { width:100%;
+		height:70px;
+		background:linear-gradient(orange, yellow, pink);
+		font-size:25px;
+		text-align:center;
+		margin-top:-25px;
+	
+}
+header ul {Margin:0px;
+			padding:0px;
+		text-align:center;
+}
+header ul li a { text-decoration: none; display: block;list-style: none;transition: all 1000ms;
+}
+header ul li { float: left;
+		width:198px;
+		height: 80px;
+		background:linear-gradient(red, green, pink);
+		font-size: 20px;
+		line-height: 80px;
+		text-align: center;
+		opacity: 8;
+		list-style: none;
+		padding-left:0px;
+		position: relative;
+		border-radius: 15px 0;
+}
+header ul li ul {position: absolute;}
+header ul li a:hover {border-radius: 0 15px;
+						box-shadow: 0px 3px 5px 0px skyblue}
+header ul ul {display:none; position: absolute}
+header ul li:hover > ul {display: block}
+header ul li ul li ul{margin-top:-80px;}
+header ul  ul  ul  {display:none; margin-left:200px;}
+
+.sidebar ul {Margin:0px;
+			padding:0px;
+		text-align:center;
+}
+.sidebar ul li a { text-decoration: none; display: block;list-style: none;
+}
+.sidebar ul li {float: left;
+		width:200px;
+		height: 80px;
+		background:linear-gradient(navy, green, orange);
+		font-size: 20px;
+		line-height: 80px;
+		text-align: center;
+		list-style: none;
+		padding:0px
+}
+.sidebar ul li a:hover {background-color: orange}
+.sidebar ul li ul {margin-top:-80px}
+.sidebar ul li ul li {display:none; margin-left:205px; float: left;}
+.sidebar ul li:hover ul li {display: inline-block}
+.col-4{width:33.33%;
+}
+.col-8{width:66.66%;}
+.paragraph h3{ color: black;
+text-align:center}
+.paragraph {background-image:url(93ec952e7a75f7ca561addcbfb1eb6c8.jpg);
+			background-size:cover;
+			display:block;
+			height:100vh;
+			width:100%;
+			font-size:20px;
+			color:#ff0000;
+}
+footer{
+	background-color:green;
+	width:100%;
+	padding-top: 25px;
+	padding-bottom:25px;
+	text-align:center;
+font-size: 15px;}
+
+
+
+
+
+
